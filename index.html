@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferença entre Margin e Padding com Bordas Coloridas</title>
+    <style>
+        .container {
+            border: 2px dashed red; /* Borda ao redor da margem */
+            margin: 20px; /* Espaço ao redor do elemento */
+        }
+        
+        .elemento {
+            border: 2px solid blue; /* Borda ao redor do padding */
+            padding: 20px; /* Espaço dentro do elemento */
+            background-color: lightblue; /* Cor de fundo do elemento */
+        }
+        
+        .conteudo {
+            border: 2px dotted green; /* Borda ao redor do conteúdo */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elemento">
+            <div class="conteudo">Conteúdo do elemento</div>
+        </div>
+    </div>
+</body>
+</html>
